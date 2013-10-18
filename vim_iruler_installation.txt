@@ -1,0 +1,27 @@
+Step 1 - Install python (2.6.4 is default on Ubuntu 9.10 Desktop, should already be present)
+
+Step 2 - Install python setuptools
+
+	Download the tarball from http://pypi.python.org/pypi/setuptools
+	Extract, cd into the directory, then run setup: sudo python setup.py install
+
+Step 3 - Install suds
+
+	Download the tarball from https://fedorahosted.org/suds/
+	Extract, cd into the directory, then run setup: sudo python setup.py install
+
+Step 4 - Install pyControl v2
+
+	Download the tarball from http://devcentral.f5.com/LinkClick.aspx?link=http%3a%2f%2fdevcentral.f5.com%2flabs%2fpycontrol%2fpycontrol.tar.gz&tabid=73&mid=433
+	Extract, cd into the directory, then run setup: sudo python setup.py install
+		
+Step 5 - Install python-enabled Vim package (Ex. vim-gnome on Ubuntu 9.10 Desktop)
+
+	sudo apt-get install vim-gnome
+
+Step 6 - Install Vim iRule Editor Plugin
+
+	Download the tarball from http://devcentral.f5.com/LinkClick.aspx?link=http%3a%2f%2fdevcentral.f5.com%2flabs%2fiRuleEditor%2fvim-iruler.tar.gz&tabid=73&mid=433
+	Download the vimrc from http://devcentral.f5.com/LinkClick.aspx?link=http%3a%2f%2fdevcentral.f5.com%2flabs%2fiRuleEditor%2firuler_vimrc&tabid=73&mid=433
+	Extract the tarball in your $HOME directory.
+	Copy the iruler_vimrc file to your $HOME directory and rename to .vimrc
