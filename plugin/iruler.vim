@@ -76,7 +76,7 @@ set wrap "Wrap lines
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "so $HOME/.vim/irule/pyfunc.vim
 "so $VIMHOME/.vim/irule/pyfunc.vim
-so $HOME/.vim/bundle/vim_iruler_53/irule/pyfunc.vim
+so $HOME/.vim/bundle/vim-iruler/irule/pyfunc.vim
 let $irulsyn='~/.vim/syntax/irul.vim' "Syntax file for *.irul files.
 let g:irul_location='~/.vim/irule/irul_dict' "Location of the syntax dict.
 au BufRead,BufNewFile *.irul set filetype=irul "If you name a file *.irul, set ftype.
